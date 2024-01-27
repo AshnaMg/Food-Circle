@@ -16,7 +16,7 @@ function App() {
      <Head />
      <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='/restview' element={<RestView />} />
+      <Route path='/RestView/:id' element={<RestView />} />
      </Routes>
      <Footer />
 
